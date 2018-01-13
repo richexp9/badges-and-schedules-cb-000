@@ -28,7 +28,6 @@ def assign_rooms(attendees)
   attendees.each { |element|
     list.push(element)
   }
-  binding.pry
 end
 
 def printer
