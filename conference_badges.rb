@@ -3,8 +3,10 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
+  i = 0
   attendees.size.times do
     badge_maker(attendees[i])
+    i+=1
   end
 end
 
