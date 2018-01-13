@@ -34,8 +34,8 @@ def assign_rooms(attendees)
   #binding.pry
 end
 
-def printer
-
+def printer(attendees)
+  puts
 end
 
 #batch_badge_creator(10)
