@@ -10,7 +10,7 @@ def batch_badge_creator(attendees)
   #   i+=1
   # end
   # list
-  attendees.each |element|
+  attendees.each do |element|
     list.push(badge_maker(element))
   end
 
