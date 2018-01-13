@@ -27,7 +27,7 @@ def assign_rooms(attendees)
   list = []
   string = ''
   attendees.each_with_index { |element,index|
-    string = "Hello, #{element}! You'll be assigned to room #{index}!"
+    string = "Hello, #{element}! You'll be assigned to room #{index+1}!"
   }
   binding.pry
 end
