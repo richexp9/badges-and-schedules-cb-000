@@ -4,7 +4,7 @@ end
 
 def batch_badge_creator(attendees)
   attendees.size.times do
-    puts 'you suck'
+    badge_maker(attendees[i])
   end
 end
 
@@ -16,4 +16,4 @@ def printer
 
 end
 
-batch_badge_creator(10)
+#batch_badge_creator(10)
