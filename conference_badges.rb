@@ -12,7 +12,9 @@ def batch_badge_creator(attendees)
   list
 end
 
-def assign_rooms
+def assign_rooms(attendees)
+
+
   # "Hello, _____! You'll be assigned to room _____!"
 end
 
