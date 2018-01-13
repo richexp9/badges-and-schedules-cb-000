@@ -3,17 +3,18 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-  i = 0
+  # i = 0
   list = []
-  attendees.size.times do
-    list.push(badge_maker(attendees[i]))
-    i+=1
+  # attendees.size.times do
+  #   list.push(badge_maker(attendees[i]))
+  #   i+=1
+  # end
+  # list
+
+  attendees.each |element|
+    list.push(badge_maker(element))
   end
   list
-
-  attendees.each_with_index |element,index|
-    list.push(badge_maker(element))
-    
 end
 
 def assign_rooms(attendees)
