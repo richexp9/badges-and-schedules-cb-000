@@ -38,7 +38,7 @@ def printer(attendees)
   list = assign_rooms(attendees)
   list.each { |e|
     puts e
-    binding.binding.pry
+    binding.pry
   }
 end
 
