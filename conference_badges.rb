@@ -39,7 +39,7 @@ def printer(attendees)
   list = batch_badge_creator(attendees)
   list.each { |e|
     puts e
-  }
+    }
 end
 
 #batch_badge_creator(10)
