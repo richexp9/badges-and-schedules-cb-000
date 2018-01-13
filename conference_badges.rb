@@ -4,10 +4,12 @@ end
 
 def batch_badge_creator(attendees)
   i = 0
+  list = []
   attendees.size.times do
-    badge_maker(attendees[i])
+    list.push(badge_maker(attendees[i]))
     i+=1
   end
+  list
 end
 
 def assign_rooms
