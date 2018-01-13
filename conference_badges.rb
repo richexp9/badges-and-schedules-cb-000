@@ -7,7 +7,7 @@ def batch_badge_creator
 end
 
 def assign_rooms
-
+  # "Hello, _____! You'll be assigned to room _____!"
 end
 
 def printer
