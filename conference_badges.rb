@@ -14,8 +14,6 @@ def batch_badge_creator(attendees)
     list.push(badge_maker(element))
   end
   list
-
-  
 end
 
 def assign_rooms(attendees)
@@ -26,7 +24,9 @@ def assign_rooms(attendees)
 
   # "Hello, _____! You'll be assigned to room _____!"
 
-  attendees.each { |element|  }
+  attendees.each { |element|
+    
+  }
 end
 
 def printer
