@@ -3,7 +3,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(attendees)
-
+  attendees.size.times do
+    puts 'you suck'
+  end
 end
 
 def assign_rooms
