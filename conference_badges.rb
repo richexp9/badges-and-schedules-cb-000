@@ -25,8 +25,9 @@ def assign_rooms(attendees)
 
   # "Hello, _____! You'll be assigned to room _____!"
   list = []
-  attendees.each { |element|
-    list.push(element)
+  string = ''
+  attendees.each_with_index { |element,index|
+    string = "Hello, #{element}! You'll be assigned to room #{index}!"
   }
 end
 
