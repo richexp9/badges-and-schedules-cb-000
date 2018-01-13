@@ -36,7 +36,7 @@ end
 
 def printer(attendees)
   attendees.each { |e|
-    puts assign_rooms(attendees)
+    puts assign_rooms(e)
   }
 end
 
