@@ -25,7 +25,7 @@ def assign_rooms(attendees)
 
   # "Hello, _____! You'll be assigned to room _____!"
 
-  attendees
+  attendees.each { |element|  }
 end
 
 def printer
