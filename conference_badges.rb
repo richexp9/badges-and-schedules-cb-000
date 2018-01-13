@@ -11,9 +11,9 @@ def batch_badge_creator(attendees)
   end
   list
 
-  attendees.each_with_index 
-
-
+  attendees.each_with_index |element,index|
+    list.push(badge_maker(element))
+    
 end
 
 def assign_rooms(attendees)
